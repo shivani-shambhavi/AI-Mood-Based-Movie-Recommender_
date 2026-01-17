@@ -32,9 +32,7 @@ Frontend / UI:            Streamlit, HTML, CSS
 
 Backend / Logic:          Python
 
-Machine Learning / NLP:   TF-IDF Vectorizer
-
-                          Cosine Similarity
+Machine Learning / NLP:   TF-IDF Vectorizer, Cosine Similarity
 
 Data Handling:            Pandas, NumPy
 
@@ -73,6 +71,31 @@ This application helps users:
     - Choose movies that match their emotional state
     - Improve mood and entertainment experience
     - Understand recommendations through explainable AI
+
+## Jupyter Notebook Support
+
+- This project also includes a Jupyter Notebook–based implementation to demonstrate the core AI and NLP logic in an interactive, step-by-step manner.
+- The notebook version is designed for:
+- Academic demonstrations
+- Understanding the recommendation logic without a web UI
+
+## Notebook Features
+
+- Loads the movie dataset directly from db/movies.csv
+- Performs text preprocessing on movie descriptions and moods
+- Applies TF-IDF vectorization and cosine similarity
+- Generates mood-based movie recommendations inside the notebook
+- Runs fully in Jupyter without requiring Streamlit
+
+## How to Run the Notebook
+- jupyter notebook
+- Open the file:
+AI_Mood_Movie_Recommender.ipynb
+- Run all cells sequentially to view dataset exploration and recommendation results.
+
+## Purpose of the Notebook Version
+
+The Jupyter Notebook version focuses on clarity and explainability of the AI pipeline, while the Streamlit application provides a user-friendly web interface. Both versions share the same conceptual logic.
 
 ## 🎓 Academic Relevance
 
