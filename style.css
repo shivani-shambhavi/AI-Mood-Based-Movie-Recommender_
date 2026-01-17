@@ -1,0 +1,18 @@
+
+body {
+    background: linear-gradient(135deg, #f8d7f2, #f3b6e0);
+    overflow: hidden;
+}
+
+.bubble {
+    position: fixed;
+    bottom: -150px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    animation: rise 20s infinite ease-in;
+}
+
+@keyframes rise {
+    from { transform: translateY(0); }
+    to { transform: translateY(-120vh); }
+}
